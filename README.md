@@ -168,7 +168,9 @@ To resolve this, follow the commands provided below
    ```python
    # Traditional Request
    curl -X POST http://127.0.0.1/multiply -H "Content-Type: application/json" -d '{"matrix_a": [[1,2],[3,4]], "matrix_b": [[5,6],[7,8]]}'
+   ```
 
+   ```python
    # (Optional) Request with Square Root Computation
    curl -X POST http://127.0.0.1/multiply -H "Content-Type: application/json" -d '{"matrix_a": [[1,2],[3,4]], "matrix_b": [[5,6],[7,8]], "sqrt": true}'
    ```
