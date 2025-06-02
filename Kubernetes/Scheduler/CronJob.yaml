@@ -1,0 +1,47 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: autoscaler
+spec:
+  schedule: "*/1 * * * *"                           # Runs every minute
+  concurrencyPolicy: Forbid                         # Prevents new job if previous is still running
+  successfulJobsHistoryLimit: 1                     # Keep only 1 successful job history
+  failedJobsHistoryLimit: 1                         # Keep only 1 failed job history
+  startingDeadlineSeconds: 10 
+  jobTemplate:  
+    spec:
+      template:
+        spec:
+          serviceAccountName: autoscaler-sa         # Use the dedicated service account
+          containers:
+          - name: autoscaler
+            image: scheduler-app
+            imagePullPolicy: Never
+            env:
+            - name: DEPLOYMENT_NAME
+              value: "matrix-multiply"
+            - name: NAMESPACE
+              value: "default"
+              # It will be used for the computation of the pressure, at the moment we are assuming that it is equal to 1 second
+            - name: PRESSURE_THRESHOLD                       
+              value: "0.5"
+              # It will be used for the computation of the utilization, where we need of the arrival rate
+            - name: INTERVAL_CHECK                  
+              value: "60"     
+            - name: AGENT_HOST                 # Put the service name of the agent     
+              value: "dqn-agent"   
+            - name: AGENT_PORT                 # Put the port in which teh agent is reachable 
+              value: "5000"  
+            - name: PROMETHEUS_URL             # Put the link to the Prometheus Service
+              value: "http://prometheus-operated.monitoring.svc.cluster.local:9090"           
+            volumeMounts:
+            - name: results-volume
+              mountPath: /app/results
+          volumes:
+          - name: results-volume
+            persistentVolumeClaim:
+              claimName: matrix-results-pvc
+          restartPolicy: OnFailure
+
+
+# The scema for the schedule is: * (Minute) * (Hour) * (Day of the month) * (Month) * (Day of the week)

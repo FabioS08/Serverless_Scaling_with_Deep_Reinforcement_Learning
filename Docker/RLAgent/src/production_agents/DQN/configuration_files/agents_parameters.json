@@ -1,0 +1,53 @@
+{ 
+  "parameters": {
+    "MasterAgent":{
+      "UrlAgentRequest": "http://s4air_master_agent_triple_layer_exp:5000/solution",
+      "UrlAgentTraining": ""
+    },
+    "computationalLayer1":{
+      "UrlAgentRequest": "http://agent_cl1_triple_layer_exp:5000/action",
+      "UrlAgentTraining": "http://agent_cl1_triple_layer_exp:5000/learn"
+    },
+    "computationalLayer2":{
+      "UrlAgentRequest": "http://agent_cl2_triple_layer_exp:5000/action",
+      "UrlAgentTraining": "http://agent_cl2_triple_layer_exp:5000/learn"
+    },
+    "computationalLayer3":{
+      "UrlAgentRequest": "http://agent_cl3_triple_layer_exp:5000/action",
+      "UrlAgentTraining": "http://agent_cl3_triple_layer_exp:5000/learn"
+    }
+  },
+  "RefreshInterval": 1,
+  "ExplorationConfig": {
+    "Explore": false, 
+    "ResetState": false,
+    "DecayInterval": 2500,
+    "InitialEpsilon": 0.25
+  },
+  "S4AIR-FullSolver": false,
+  "SaveInterval": 500, 
+  "RewardsFile": {
+    "File": "rewards/rewards_triple_layer_exp.csv",
+    "AddDate": false,
+    "is_on": "AgentDataManager"
+  },
+  "ConfigurationsFile": {
+    "File": "configurations/configurations_triple_layer_exp.json",
+    "AddDate": false,
+    "is_on": "AgentDataManager"
+  },
+  "AssignmentsFile": {
+    "File": "assignments/assignments_triple_layer_exp.json",
+    "AddDate": false,
+    "is_on": "AgentDataManager"
+  },
+  "ExperienceFile": {
+    "File": "experience/experience_triple_layer_exp.json",
+    "AddDate": false,
+    "is_on": "AgentDataManager"
+  },
+  "RewardsFunctionParams": {
+    "File": "../configuration_files/start/reward_function_params.json",
+    "is_on": "AgentDataManager"
+  }
+}

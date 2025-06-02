@@ -1,0 +1,27 @@
+{
+    "ConfigFiles": [
+        "/mnt/DQN_CustomEnvironment_2025-04-08_13-26-51.401627/space4air/input/SystemFile_computationalLayer1_ffmpeg0.json"
+    ],
+    "OutputFiles": [
+        "/mnt/DQN_CustomEnvironment_2025-04-08_13-26-51.401627/space4air/output/computationalLayer1_ffmpeg0/Lambda_0.161.json"
+    ],
+    "LambdaBound": {
+        "start": 0.0,
+        "end": 0.162,
+        "step": 0.001
+    },
+    "Lambda": 0.16100000000000012,
+    "Algorithm": {
+        "RG_n_iterations": 10000,
+        "LS_n_iterations": 1000,
+        "RG_max_num_sols": 10,
+        "LS_max_num_sols": 1,
+        "max_num_sols": 5,
+        "reproducibility": false
+    },
+    "Logger": {
+        "priority": 3,
+        "terminal_stream": true,
+        "file_stream": false
+    }
+}

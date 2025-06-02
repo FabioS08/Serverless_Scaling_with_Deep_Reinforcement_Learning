@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: dqn-agent
+spec:
+  type: ClusterIP
+  selector:
+    app: dqn-agent
+  ports:
+    - port: 5000
+      targetPort: 5000
+      protocol: TCP

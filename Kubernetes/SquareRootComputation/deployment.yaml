@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sqrt
+  labels:
+    app: sqrt
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sqrt
+  template:
+    metadata:
+      labels:
+        app: sqrt
+    spec:
+      containers:
+      - name: sqrt
+        image: sqrt-app
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5051

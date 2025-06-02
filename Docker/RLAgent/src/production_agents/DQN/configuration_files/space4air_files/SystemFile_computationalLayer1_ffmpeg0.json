@@ -1,0 +1,79 @@
+{
+    "EdgeResources": {
+        "computationalLayer1": {
+            "RasPi": {
+                "description": "Raspberry PIs 4 Model B",
+                "number": 6,
+                "cost": 0.6,
+                "memory": 4096,
+                "n_cores": 4
+            }
+        }
+    },
+    "CloudResources": {},
+    "Components": {
+        "ffmpeg0": {
+            "s1": {
+                "h1": {
+                    "next": [],
+                    "early_exit_probability": 0,
+                    "data_size": [
+                        180.0
+                    ],
+                    "memory": 1
+                }
+            }
+        }
+    },
+    "NetworkTechnology": {
+        "ND1": {
+            "computationalLayers": [
+                "computationalLayer1"
+            ],
+            "AccessDelay": 2.77e-06,
+            "Bandwidth": 4000
+        }
+    },
+    "CompatibilityMatrix": {
+        "ffmpeg0": {
+            "h1": [
+                {
+                    "resource": "RasPi",
+                    "memory": 768
+                }
+            ]
+        }
+    },
+    "LocalConstraints": {
+        "ffmpeg0": {
+            "local_res_time": 250
+        }
+    },
+    "GlobalConstraints": {
+        "global_constraint_1": {
+            "components": [
+                "ffmpeg0"
+            ],
+            "global_res_time": 250
+        }
+    },
+    "DirectedAcyclicGraph": {
+        "ffmpeg0": {
+            "next": [],
+            "transition_probability": []
+        }
+    },
+    "Performance": {
+        "ffmpeg0": {
+            "h1": {
+                "RasPi": {
+                    "model": "QTedge",
+                    "demand": 26.54,
+                    "meanTime": 26.54
+                }
+            }
+        }
+    },
+    "Lambda": 0.007,
+    "Time": 1
+}

@@ -1,0 +1,14 @@
+apiVersion: monitoring.coreos.com/v1
+kind: Probe
+metadata:
+  name: matrix-multiply-blackbox
+  namespace: monitoring
+spec:
+  jobName: matrix-multiply-probe
+  prober:
+    url: blackbox-exporter.monitoring.svc.cluster.local:9115
+  module: http_2xx
+  targets:
+    staticConfig:
+      static:
+      - http://matrix-multiply-service.default.svc.cluster.local:80

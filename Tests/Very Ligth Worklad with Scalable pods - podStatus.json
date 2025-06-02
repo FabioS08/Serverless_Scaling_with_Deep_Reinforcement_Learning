@@ -1,0 +1,911 @@
+{
+    "check_1": {
+        "timestamp": "29.05.2025_09:34:02",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0107827987075202,
+        "workload": 0,
+        "action": "No Action",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "shutdownPreviousCheck": []
+    },
+    "check_2": {
+        "timestamp": "29.05.2025_09:35:06",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0007401396614748879,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_3": {
+        "timestamp": "29.05.2025_09:36:06",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0012988298545224617,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_4": {
+        "timestamp": "29.05.2025_09:37:10",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0025182051408554917,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_5": {
+        "timestamp": "29.05.2025_09:38:04",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0014130932291546317,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_6": {
+        "timestamp": "29.05.2025_09:39:04",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0005802887665935987,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_7": {
+        "timestamp": "29.05.2025_09:40:03",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0011271999999999949,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_8": {
+        "timestamp": "29.05.2025_09:41:02",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0004594732956844826,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_9": {
+        "timestamp": "29.05.2025_09:42:02",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0009451862262825042,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_10": {
+        "timestamp": "29.05.2025_09:43:03",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 8.894999999999876e-05,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_11": {
+        "timestamp": "29.05.2025_09:44:08",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0023883318860029976,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_12": {
+        "timestamp": "29.05.2025_09:45:02",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.000957428441617452,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_13": {
+        "timestamp": "29.05.2025_09:46:02",
+        "nInstances": 1,
+        "pressure": 0.301237791776625,
+        "avgResponseTime": 0.301237791776625,
+        "avgServiceTime": 0.200748261,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.5008628529934822,
+        "utilization": 0.026766434800000002,
+        "CPUUsage (Prometheus)": 0.14181461124215586,
+        "workload": 0.13333333333333333,
+        "action": "The number of pod will be set to 2!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_14": {
+        "timestamp": "29.05.2025_09:47:05",
+        "nInstances": 2,
+        "pressure": 0.2613276413508571,
+        "avgResponseTime": 0.2613276413508571,
+        "avgServiceTime": 0.20076978671428572,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.3566299195414756,
+        "utilization": 0.011711570891666667,
+        "CPUUsage (Prometheus)": 0.06549565058810373,
+        "workload": 0.11666666666666667,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-26cq4"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-26cq4"
+        ],
+        "shutdownPreviousCheck": []
+    },
+    "check_15": {
+        "timestamp": "29.05.2025_09:48:02",
+        "nInstances": 3,
+        "pressure": 0.2688660621641667,
+        "avgResponseTime": 0.2688660621641667,
+        "avgServiceTime": 0.20069052050000002,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.6544220166603555,
+        "utilization": 0.006689684016666667,
+        "CPUUsage (Prometheus)": 0.03159350171537819,
+        "workload": 0.1,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-mcxkv",
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-26cq4"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-mcxkv"
+        ],
+        "shutdownPreviousCheck": []
+    },
+    "check_16": {
+        "timestamp": "29.05.2025_09:49:02",
+        "nInstances": 3,
+        "pressure": 0.24604289872328572,
+        "avgResponseTime": 0.24604289872328572,
+        "avgServiceTime": 0.2008293495714286,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.2714795951269907,
+        "utilization": 0.007810030261111111,
+        "CPUUsage (Prometheus)": 0.04980033171510501,
+        "workload": 0.11666666666666667,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-26cq4",
+            "matrix-multiply-d847c46c7-mcxkv",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_17": {
+        "timestamp": "29.05.2025_09:50:01",
+        "nInstances": 3,
+        "pressure": 0.238331079483,
+        "avgResponseTime": 0.238331079483,
+        "avgServiceTime": 0.20078292349999996,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.19055938943857226,
+        "utilization": 0.006692764116666666,
+        "CPUUsage (Prometheus)": 0.04453501500271534,
+        "workload": 0.09999999999999999,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-mcxkv",
+            "matrix-multiply-d847c46c7-26cq4"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_18": {
+        "timestamp": "29.05.2025_09:51:01",
+        "nInstances": 1,
+        "pressure": 0.24909615516657138,
+        "avgResponseTime": 0.24909615516657138,
+        "avgServiceTime": 0.20111857742857145,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.23875473094983696,
+        "utilization": 0.023463834033333335,
+        "CPUUsage (Prometheus)": 0.1332101320068497,
+        "workload": 0.11666666666666667,
+        "action": "The number of pod will be set to 2!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-lxvch"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-lxvch"
+        ],
+        "shutdownPreviousCheck": [
+            "matrix-multiply-d847c46c7-mcxkv",
+            "matrix-multiply-d847c46c7-26cq4"
+        ]
+    },
+    "check_19": {
+        "timestamp": "29.05.2025_09:52:02",
+        "nInstances": 2,
+        "pressure": 0.247580687205,
+        "avgResponseTime": 0.247580687205,
+        "avgServiceTime": 0.20111659550000002,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.311795529337036,
+        "utilization": 0.010055829775,
+        "CPUUsage (Prometheus)": 0.05004798933298968,
+        "workload": 0.1,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-lxvch",
+            "matrix-multiply-d847c46c7-gx2vn",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-gx2vn"
+        ],
+        "shutdownPreviousCheck": []
+    },
+    "check_20": {
+        "timestamp": "29.05.2025_09:53:02",
+        "nInstances": 3,
+        "pressure": 0.259108066559,
+        "avgResponseTime": 0.259108066559,
+        "avgServiceTime": 0.200776605,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.5915478235544142,
+        "utilization": 0.004461702333333334,
+        "CPUUsage (Prometheus)": 0.034275071442926776,
+        "workload": 0.06666666666666667,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-gx2vn",
+            "matrix-multiply-d847c46c7-lxvch"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_21": {
+        "timestamp": "29.05.2025_09:54:01",
+        "nInstances": 3,
+        "pressure": 0.2586737155914,
+        "avgResponseTime": 0.2586737155914,
+        "avgServiceTime": 0.2007780672,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.7036177051590639,
+        "utilization": 0.005577168533333334,
+        "CPUUsage (Prometheus)": 0.00967851132333779,
+        "workload": 0.08333333333333333,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-lxvch",
+            "matrix-multiply-d847c46c7-gx2vn"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_22": {
+        "timestamp": "29.05.2025_09:55:04",
+        "nInstances": 3,
+        "pressure": 0.29528651237479997,
+        "avgResponseTime": 0.29528651237479997,
+        "avgServiceTime": 0.2018958334,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.5498016844606558,
+        "utilization": 0.005608217594444445,
+        "CPUUsage (Prometheus)": 0.041621715170793674,
+        "workload": 0.08333333333333333,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-lxvch",
+            "matrix-multiply-d847c46c7-gx2vn",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_23": {
+        "timestamp": "29.05.2025_09:56:02",
+        "nInstances": 3,
+        "pressure": 0.303259253502,
+        "avgResponseTime": 0.303259253502,
+        "avgServiceTime": 0.20117351900000002,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.985506618576998,
+        "utilization": 0.004470522644444444,
+        "CPUUsage (Prometheus)": 0.03080816120403496,
+        "workload": 0.06666666666666667,
+        "action": "The number of pod will be set to 4!",
+        "active": [
+            "matrix-multiply-d847c46c7-gx2vn",
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-lxvch"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_24": {
+        "timestamp": "29.05.2025_09:57:03",
+        "nInstances": 4,
+        "pressure": 0.3200368881226667,
+        "avgResponseTime": 0.3200368881226667,
+        "avgServiceTime": 0.20108415933333332,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.640246868399313,
+        "utilization": 0.0025135519916666665,
+        "CPUUsage (Prometheus)": 0.026667096708018548,
+        "workload": 0.05,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-nv5mc",
+            "matrix-multiply-d847c46c7-lxvch",
+            "matrix-multiply-d847c46c7-gx2vn"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-nv5mc"
+        ],
+        "shutdownPreviousCheck": []
+    },
+    "check_25": {
+        "timestamp": "29.05.2025_09:58:02",
+        "nInstances": 3,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0003451812691494469,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-gx2vn",
+            "matrix-multiply-d847c46c7-lxvch",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": [
+            "matrix-multiply-d847c46c7-nv5mc"
+        ]
+    },
+    "check_26": {
+        "timestamp": "29.05.2025_09:59:02",
+        "nInstances": 1,
+        "pressure": 0.3458644151685,
+        "avgResponseTime": 0.3458644151685,
+        "avgServiceTime": 0.2014293675,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.7171580846124196,
+        "utilization": 0.00671431225,
+        "CPUUsage (Prometheus)": 0.0646297293088082,
+        "workload": 0.03333333333333333,
+        "action": "The number of pod will be set to 2!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-75qs2"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-75qs2"
+        ],
+        "shutdownPreviousCheck": [
+            "matrix-multiply-d847c46c7-gx2vn",
+            "matrix-multiply-d847c46c7-lxvch"
+        ]
+    },
+    "check_27": {
+        "timestamp": "29.05.2025_10:00:02",
+        "nInstances": 2,
+        "pressure": 0.241403698921,
+        "avgResponseTime": 0.241403698921,
+        "avgServiceTime": 0.2009498915,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.21518028638846773,
+        "utilization": 0.003349164858333333,
+        "CPUUsage (Prometheus)": 0.013658787214550853,
+        "workload": 0.03333333333333333,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-qjjsx",
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-75qs2"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-qjjsx"
+        ],
+        "shutdownPreviousCheck": []
+    },
+    "check_28": {
+        "timestamp": "29.05.2025_10:01:02",
+        "nInstances": 3,
+        "pressure": 0.24098185130528568,
+        "avgResponseTime": 0.24098185130528568,
+        "avgServiceTime": 0.2008782817142857,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.2210640132674351,
+        "utilization": 0.007811933177777779,
+        "CPUUsage (Prometheus)": 0.007985797489223342,
+        "workload": 0.11666666666666667,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-75qs2",
+            "matrix-multiply-d847c46c7-qjjsx",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_29": {
+        "timestamp": "29.05.2025_10:02:01",
+        "nInstances": 1,
+        "pressure": 0.25084650516516666,
+        "avgResponseTime": 0.25084650516516666,
+        "avgServiceTime": 0.2009627068333333,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.24803312217774073,
+        "utilization": 0.020096270683333334,
+        "CPUUsage (Prometheus)": 0.1283194719864015,
+        "workload": 0.1,
+        "action": "The number of pod will be set to 2!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-x4tzs"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-x4tzs"
+        ],
+        "shutdownPreviousCheck": [
+            "matrix-multiply-d847c46c7-75qs2",
+            "matrix-multiply-d847c46c7-qjjsx"
+        ]
+    },
+    "check_30": {
+        "timestamp": "29.05.2025_10:03:01",
+        "nInstances": 2,
+        "pressure": 0.25302474839342853,
+        "avgResponseTime": 0.25302474839342853,
+        "avgServiceTime": 0.20080545914285716,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.30532931678748226,
+        "utilization": 0.011713651783333334,
+        "CPUUsage (Prometheus)": 0.04499127648524122,
+        "workload": 0.11666666666666667,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-x4tzs",
+            "matrix-multiply-d847c46c7-gjctx",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-gjctx"
+        ],
+        "shutdownPreviousCheck": []
+    },
+    "check_31": {
+        "timestamp": "29.05.2025_10:04:01",
+        "nInstances": 3,
+        "pressure": 0.24030822515475,
+        "avgResponseTime": 0.24030822515475,
+        "avgServiceTime": 0.20128778675,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.19879644237920324,
+        "utilization": 0.004473061927777778,
+        "CPUUsage (Prometheus)": 0.03204436205351422,
+        "workload": 0.06666666666666667,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-gjctx",
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-x4tzs"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_32": {
+        "timestamp": "29.05.2025_10:05:01",
+        "nInstances": 3,
+        "pressure": 0.24902252356216667,
+        "avgResponseTime": 0.24902252356216667,
+        "avgServiceTime": 0.20103806300000002,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.3395664620368755,
+        "utilization": 0.006701268766666667,
+        "CPUUsage (Prometheus)": 0.046132248541009065,
+        "workload": 0.1,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-x4tzs",
+            "matrix-multiply-d847c46c7-gjctx"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_33": {
+        "timestamp": "29.05.2025_10:06:01",
+        "nInstances": 3,
+        "pressure": 0.24561262130750003,
+        "avgResponseTime": 0.24561262130750003,
+        "avgServiceTime": 0.20067726800000005,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.30973582653244164,
+        "utilization": 0.006689242266666667,
+        "CPUUsage (Prometheus)": 0.02598097275095636,
+        "workload": 0.1,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-x4tzs",
+            "matrix-multiply-d847c46c7-gjctx"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_34": {
+        "timestamp": "29.05.2025_10:07:01",
+        "nInstances": 3,
+        "pressure": 0.247713983059,
+        "avgResponseTime": 0.247713983059,
+        "avgServiceTime": 0.201023538,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.37529072070661135,
+        "utilization": 0.004467189733333333,
+        "CPUUsage (Prometheus)": 0.024808823076540656,
+        "workload": 0.06666666666666667,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-x4tzs",
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-gjctx"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_35": {
+        "timestamp": "29.05.2025_10:08:01",
+        "nInstances": 3,
+        "pressure": 0.25352277755739994,
+        "avgResponseTime": 0.25352277755739994,
+        "avgServiceTime": 0.2007888276,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.3557585299407164,
+        "utilization": 0.005577467433333334,
+        "CPUUsage (Prometheus)": 0.020545655611263747,
+        "workload": 0.08333333333333333,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-x4tzs",
+            "matrix-multiply-d847c46c7-gjctx",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_36": {
+        "timestamp": "29.05.2025_10:09:01",
+        "nInstances": 3,
+        "pressure": 0.24029445648199999,
+        "avgResponseTime": 0.24029445648199999,
+        "avgServiceTime": 0.20053782566666667,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.22052268325646054,
+        "utilization": 0.003342297094444444,
+        "CPUUsage (Prometheus)": 0.026500174973029627,
+        "workload": 0.05,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-gjctx",
+            "matrix-multiply-d847c46c7-x4tzs",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_37": {
+        "timestamp": "29.05.2025_10:10:01",
+        "nInstances": 3,
+        "pressure": 0.2709809303282,
+        "avgResponseTime": 0.2709809303282,
+        "avgServiceTime": 0.2009423216,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.598983763023435,
+        "utilization": 0.005581731155555557,
+        "CPUUsage (Prometheus)": 0.039434494810176836,
+        "workload": 0.08333333333333334,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-gjctx",
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-x4tzs"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_38": {
+        "timestamp": "29.05.2025_10:11:02",
+        "nInstances": 3,
+        "pressure": 0.24465614557275,
+        "avgResponseTime": 0.24465614557275,
+        "avgServiceTime": 0.2009061095,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.2291472434216689,
+        "utilization": 0.004464580211111111,
+        "CPUUsage (Prometheus)": 0.01728946797632627,
+        "workload": 0.06666666666666667,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-gjctx",
+            "matrix-multiply-d847c46c7-x4tzs",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_39": {
+        "timestamp": "29.05.2025_10:12:01",
+        "nInstances": 3,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.00013846305050703382,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-gjctx",
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-x4tzs"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_40": {
+        "timestamp": "29.05.2025_10:13:01",
+        "nInstances": 1,
+        "pressure": 0.2383943796155,
+        "avgResponseTime": 0.2383943796155,
+        "avgServiceTime": 0.200973258,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.18620251425394824,
+        "utilization": 0.0066991086,
+        "CPUUsage (Prometheus)": 0.061496448281514814,
+        "workload": 0.03333333333333333,
+        "action": "The number of pod will be set to 2!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-vljpx"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-vljpx"
+        ],
+        "shutdownPreviousCheck": [
+            "matrix-multiply-d847c46c7-x4tzs",
+            "matrix-multiply-d847c46c7-gjctx"
+        ]
+    },
+    "check_41": {
+        "timestamp": "29.05.2025_10:14:02",
+        "nInstances": 2,
+        "pressure": 0.279677867889,
+        "avgResponseTime": 0.279677867889,
+        "avgServiceTime": 0.201050068,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.39108566672556416,
+        "utilization": 0.0016754172333333333,
+        "CPUUsage (Prometheus)": 0.012663014832535928,
+        "workload": 0.016666666666666666,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-7xrfb",
+            "matrix-multiply-d847c46c7-kjq67",
+            "matrix-multiply-d847c46c7-vljpx"
+        ],
+        "startedPreviousCheck": [
+            "matrix-multiply-d847c46c7-7xrfb"
+        ],
+        "shutdownPreviousCheck": []
+    },
+    "check_42": {
+        "timestamp": "29.05.2025_10:15:02",
+        "nInstances": 3,
+        "pressure": 0.24746147791533332,
+        "avgResponseTime": 0.24746147791533332,
+        "avgServiceTime": 0.20089972033333334,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.24169406551356426,
+        "utilization": 0.003348328672222222,
+        "CPUUsage (Prometheus)": 0.023005160892887285,
+        "workload": 0.05,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-vljpx",
+            "matrix-multiply-d847c46c7-7xrfb",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_43": {
+        "timestamp": "29.05.2025_10:16:02",
+        "nInstances": 3,
+        "pressure": 0.306689898173,
+        "avgResponseTime": 0.306689898173,
+        "avgServiceTime": 0.20093564833333333,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0.6393540139190685,
+        "utilization": 0.0033489274722222216,
+        "CPUUsage (Prometheus)": 0.02580613327485072,
+        "workload": 0.05,
+        "action": "The number of pod will be set to 3!",
+        "active": [
+            "matrix-multiply-d847c46c7-7xrfb",
+            "matrix-multiply-d847c46c7-vljpx",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_44": {
+        "timestamp": "29.05.2025_10:17:02",
+        "nInstances": 3,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0001715342025002621,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-vljpx",
+            "matrix-multiply-d847c46c7-7xrfb",
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": []
+    },
+    "check_45": {
+        "timestamp": "29.05.2025_10:18:02",
+        "nInstances": 1,
+        "pressure": 0.0,
+        "avgResponseTime": 0,
+        "avgServiceTime": 0,
+        "Threshold": 1.0,
+        "queueLengthDominant": 0,
+        "utilization": 0.0,
+        "CPUUsage (Prometheus)": 0.0001316926545180155,
+        "workload": 0,
+        "action": "The number of pod will be set to 1!",
+        "active": [
+            "matrix-multiply-d847c46c7-kjq67"
+        ],
+        "startedPreviousCheck": [],
+        "shutdownPreviousCheck": [
+            "matrix-multiply-d847c46c7-7xrfb",
+            "matrix-multiply-d847c46c7-vljpx"
+        ]
+    }
+}

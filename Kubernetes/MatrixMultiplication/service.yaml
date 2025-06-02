@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: matrix-multiply-service
+spec:
+  selector:
+    app: matrix-multiply
+  ports:
+  - port: 80            # External port
+    targetPort: 5050    # Internal port
+  type: ClusterIP 

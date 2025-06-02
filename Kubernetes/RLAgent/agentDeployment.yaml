@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dqn-agent
+  labels:
+    app: dqn-agent
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dqn-agent
+  template:
+    metadata:
+      labels:
+        app: dqn-agent
+    spec:
+      containers:
+        - name: dqn-agent
+          image: production_agent:latest
+          imagePullPolicy: Never   
+          ports:
+            - containerPort: 5000

@@ -1,0 +1,1 @@
+{"type": "Algorithm", "checkpoint_version": "1.1", "format": "cloudpickle", "state_file": "/home/cavadini/figaro-on-rl4cc/output_nas/figaro-on-rl4cc/outputs/DQN_CustomEnvironment_2025-02-24_08-53-16.995102/checkpoints/500/algorithm_state.pkl", "policy_ids": ["default_policy"], "ray_version": "2.12.0", "ray_commit": "549c4b7694483f6bc9e519b61e6f575e13510343"}

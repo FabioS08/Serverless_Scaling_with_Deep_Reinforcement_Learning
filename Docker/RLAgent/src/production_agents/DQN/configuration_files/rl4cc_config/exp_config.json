@@ -1,0 +1,21 @@
+{
+  "algorithm": "DQN",
+  "env_config_file": "/home/cavadini/figaro-on-rl4cc/output_test/split_systemfile_experiments/2025-04-08_13-26/env_configs/env_config_computationalLayer1.json",
+  "ray_config_file": "config_files/ray_config.json",
+  "tune_config_file": "config_files/tune_config.json",
+  "evaluation_interval": 50,
+  "plot_interval": 50,
+  "checkpoint_interval": 1000,
+  "stopping_criteria": {
+    "episode_reward_mean": 1000,
+    "max_iterations": 10000,
+    "s4air_difference": 1.2
+  },
+  "logger": {
+    "verbosity": 1,
+    "file_streams": true
+  },
+  "logdir": "output_test",
+  "split_systemfile": true,
+  "experiment_general_output_folder": "/home/cavadini/figaro-on-rl4cc/output_test/split_systemfile_experiments/2025-04-08_13-26"
+}
