@@ -1,20 +1,74 @@
-# Serverless Scaling with Deep Reinforcement Learning
+# Serverless Scaling with Deep Reinforcement Learning ⚙️🧠
 
-This project aims to develop an intelligent autoscaling solution for serverless functions using Deep
-Reinforcement Learning to overcome the limitations of static threshold-based methods in
-dynamic workload environments.
-For a comprehensive overview of the project's goals and implementation details, in addition to the explanations provided in this README, please refer to the supporting material in the [Presentation](Presentation.pdf) slides.
+> **A comprehensive Cloud & Systems Engineering project for intelligent autoscaling of serverless workloads using Deep Reinforcement Learning.**
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Type](https://img.shields.io/badge/Type-Group_Project-blue)
+![Focus](https://img.shields.io/badge/Focus-Software_Architectures_&_Reinforcement_Learning-orange)
 
 
-## Prerequisites
-Ensure you have the following installed:
+## 📂 Repository Structure
+
+This repository presents the following structure:
+
+* 📄 **[Presentation.pdf](Presentation.pdf)**: A concise visual overview of the project goals, system architecture and experimental results *(Recommended as a starting point for an high-level understanding of the project)*
+
+* 📂 **Docker**: The Docker images for all the system components:
+  
+  * Matrix Multiplication Application  
+  
+  * Scheduler  
+  
+  * (Optional) Square Root Computation Application  
+  
+  * Reinforcement Learning Agent  
+
+* 📂 **Kubernetes**: The Kubernetes manifests for deploying and orchestrating the system components
+
+* 📂 **JMeter**: The load testing configuration files and test plans
+
+* 📂 **Test**: The notebooks and utilities for analyzing and visualizing experimental results
+
+* 📂 **Images**: The images and plots illustrating the system behavior and performance
+
+
+## 📖 About The Project
+
+**Serverless Scaling with Deep Reinforcement Learning** addresses the limitations of traditional **threshold-based autoscaling strategies** in highly dynamic workload environments.
+
+Instead of relying on static rules, this project introduces an **RL-based autoscaler** capable of learning optimal scaling policies by observing system performance metrics and workload variations over time.
+
+The system is designed and evaluated in a **Kubernetes-based serverless environment**, with realistic workloads and full monitoring support.
+
+For a complete overview of objectives, architecture and results, refer to the provided [Presentation](Presentation.pdf) Slides.
+
+## ⚡ Core System Components
+
+The developed system is composed of multiple interacting services:
+
+### **Serverless Applications**
+
+* **Matrix Multiplication Service**: The primary computational workload used to stress-test the autoscaler
+* **Square Root Computation Service (Optional)**: Used only to demonstrate multi-service interactions within Kubernetes
+
+### **Reinforcement Learning Agent**
+It Implements a **Deep Q-Network (DQN)**–based policy, which observes the system metrics and dynamically decides the number of active instances.
+It is built directly inside Minikube to improve deployment efficiency.
+
+### **Scheduler**
+It periodically queries the RL Agent and applies the scaling decisions to the Kubernetes resources.
+Note that, in order to properly work, it must rely on metrics collected via Prometheus.
+
+
+## 🛠️ Prerequisites
+Ensure the following libraries are installed:
 
 - **Python** 3.8+
 - **Docker** 27.5.1+
 - **Minikube** 1.35.0+
 
 
-## Installation (MacOS)
+## 💻 Installation (MacOS)
 For a quick setup, install the required dependencies using **Homebrew**:
 
 ```shell
@@ -25,7 +79,7 @@ brew install kubernetes-helm
 ```
 
 
-## Implementing the Docker Containers
+## 🐳 Docker Images Implementation
 
 1. **Build the Docker Image (i.e. Matrix Multiplication)**: navigate to the directory containing the `DockerFile` (e.g. if using this repo structure, the `Docker/MatrixMultiplication` directory) and run the following command:  
 
@@ -80,7 +134,7 @@ brew install kubernetes-helm
 
 <br></br>
 
-## Implementing the Kubernetes Settings
+## ☸️ Kubernetes Deployment
 
 0. **Start Minikube**: This command starts the Kubernetes Cluster with 4 CPU cores and 4096 MB (4 GB) of RAM
 
@@ -215,7 +269,7 @@ To resolve this, follow the commands provided below
 <br></br>
 
 
-## Testing the Scaler with JMeter
+## 🧪 Load Testing with JMeter
 
 1. **Configure the JMeter Test Plan**: open the notebook `WorkloadAndConfigGenerator.ipynb`. This will allow you to generate the desired workload (currently, only a sinusoidal pattern is supported) and, once the workload is generated, configure the following parameters:
 
@@ -289,7 +343,7 @@ To resolve this, follow the commands provided below
 **Note**: You can easily visualize the results by using the `visualizeResults.ipynb` notebook located in the `Test` folder. Simply provide the corresponding podStatus.json files as input.
 <br></br>
 
-## Monitoring the system
+## 📊 Monitoring & Observability
 
 We will use: 
    - **NodeExporter**: it runs as a DaemonSet on each Kubernetes node and collects system-level metrics, such as CPU, memory, disk I/O, network usage, etc., from the underlying host
@@ -373,7 +427,7 @@ Through this installation, we are automatically setting up NodeExporter, cAdviso
    <br></br>
 
 
-## Useful Commands
+## 🧹 Useful Commands
 This is a list of commonly used commands that may be helpful during the testing phase. These are the most frequently executed ones.
 
    ```shell
@@ -407,3 +461,9 @@ This is a list of commonly used commands that may be helpful during the testing 
    # Save the log files in local
    kubectl cp POD_NAME:/app/results/podStatus.json ./podStatus.json
    ```
+
+---
+
+<div align="center">
+*This project was developed as part of the Multidisciplinary Project Course (A.Y. 2024 - 2025) at Politecnico di Milano*
+</div> 
