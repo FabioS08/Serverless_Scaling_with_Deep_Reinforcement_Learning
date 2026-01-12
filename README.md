@@ -1,4 +1,4 @@
-# Serverless Scaling with Deep Reinforcement Learning ⚙️🧠
+# Serverless Scaling with Deep Reinforcement Learning 🧠
 
 > **A comprehensive Cloud & Systems Engineering project for intelligent autoscaling of serverless workloads using Deep Reinforcement Learning.**
 
@@ -464,6 +464,10 @@ This is a list of commonly used commands that may be helpful during the testing 
 
 ---
 
+---
+
 <div align="center">
-*This project was developed as part of the Multidisciplinary Project Course (A.Y. 2024 - 2025) at Politecnico di Milano*
-</div> 
+
+*This project was developed as part of the Multidisciplinary Project Course (A.Y. 2024 - 2025) at Politecnico di Milano.*
+
+</div>
